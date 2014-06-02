@@ -508,24 +508,43 @@ containing a value of this type.
         public static final int tab_unselected_pressed_avdbpink=0x7f02006e;
     }
     public static final class id {
-        public static final int AVGirlName=0x7f060036;
-        public static final int AVbrowser=0x7f060038;
-        public static final int Dart1=0x7f06002a;
-        public static final int Dart2=0x7f060024;
-        public static final int Dart3=0x7f060026;
+        public static final int AVGirlName=0x7f06004b;
+        public static final int AVbrowser=0x7f06004d;
+        public static final int Dart1=0x7f060022;
+        public static final int Dart1Score=0x7f060021;
+        public static final int Dart2=0x7f06001f;
+        public static final int Dart2Score=0x7f060023;
+        public static final int Dart3=0x7f060024;
+        public static final int Dart3Score=0x7f060025;
         public static final int DialogGirlName=0x7f060008;
         public static final int DialogVideoName=0x7f060007;
-        public static final int RelativeLayout1=0x7f060034;
-        public static final int ScrollViewforTerms=0x7f060031;
-        public static final int Signup=0x7f060030;
-        public static final int Terms=0x7f060032;
-        public static final int TermsOK=0x7f060033;
-        public static final int TextView01=0x7f060027;
-        public static final int UserID=0x7f06002f;
-        public static final int VideoName=0x7f060037;
-        public static final int adView=0x7f06002d;
-        public static final int adView2=0x7f060035;
-        public static final int authButton=0x7f06003a;
+        public static final int RelativeLayout1=0x7f060049;
+        public static final int Round1=0x7f060035;
+        public static final int Round1Score=0x7f060037;
+        public static final int Round2=0x7f060038;
+        public static final int Round2Score=0x7f060039;
+        public static final int Round3=0x7f06003a;
+        public static final int Round3Score=0x7f06003c;
+        public static final int Round4=0x7f06003b;
+        public static final int Round4Score=0x7f06003d;
+        public static final int Round5=0x7f060040;
+        public static final int Round5Score=0x7f060041;
+        public static final int Round6=0x7f06003f;
+        public static final int Round6Score=0x7f060044;
+        public static final int Round7=0x7f060043;
+        public static final int Round7Score=0x7f060042;
+        public static final int Round8=0x7f060048;
+        public static final int ScrollViewforTerms=0x7f060032;
+        public static final int Signup=0x7f060031;
+        public static final int Terms=0x7f060033;
+        public static final int TermsOK=0x7f060034;
+        public static final int TextView01=0x7f060045;
+        public static final int UserID=0x7f060030;
+        public static final int VideoName=0x7f06004c;
+        public static final int adView=0x7f06002e;
+        public static final int adView2=0x7f06004a;
+        public static final int authButton=0x7f06004f;
+        public static final int clear=0x7f06002b;
         public static final int com_facebook_login_activity_progress_bar=0x7f06000b;
         public static final int com_facebook_picker_activity_circle=0x7f06000a;
         public static final int com_facebook_picker_checkbox=0x7f06000d;
@@ -546,37 +565,33 @@ containing a value of this type.
         public static final int com_facebook_usersettingsfragment_login_button=0x7f06001d;
         public static final int com_facebook_usersettingsfragment_logo_image=0x7f06001b;
         public static final int com_facebook_usersettingsfragment_profile_name=0x7f06001c;
-        public static final int dd_target1=0x7f06003e;
-        public static final int dd_target2=0x7f06003f;
-        public static final int dd_target3=0x7f060040;
-        public static final int dd_target4=0x7f060041;
-        public static final int editText1=0x7f06002b;
+        public static final int dd_target1=0x7f060047;
         public static final int hybrid=0x7f060006;
-        public static final int imageView1=0x7f06003d;
+        public static final int imageView1=0x7f060036;
         public static final int large=0x7f060002;
-        public static final int listview=0x7f06002e;
-        public static final int mWebView=0x7f060039;
-        public static final int mainLayout=0x7f06002c;
-        public static final int menu_add=0x7f060042;
-        public static final int menu_next=0x7f060043;
-        public static final int menu_share=0x7f060044;
+        public static final int listview=0x7f06002f;
+        public static final int mWebView=0x7f06004e;
+        public static final int mainLayout=0x7f06002d;
+        public static final int menu_next=0x7f060052;
+        public static final int menu_score=0x7f060051;
+        public static final int menu_share=0x7f060053;
         public static final int none=0x7f060003;
         public static final int normal=0x7f060001;
         public static final int picker_subtitle=0x7f060018;
-        public static final int point0=0x7f060028;
-        public static final int point1=0x7f060022;
-        public static final int point13=0x7f06001f;
-        public static final int point18=0x7f060020;
-        public static final int point20=0x7f060023;
-        public static final int point4=0x7f060021;
-        public static final int point50=0x7f060029;
-        public static final int publishStory=0x7f06003b;
+        public static final int point1=0x7f06002a;
+        public static final int point13=0x7f060028;
+        public static final int point18=0x7f060026;
+        public static final int point20=0x7f060029;
+        public static final int point4=0x7f060027;
+        public static final int point50=0x7f06002c;
+        public static final int publishStory=0x7f060050;
         public static final int satellite=0x7f060004;
-        public static final int scrollView1=0x7f06003c;
+        public static final int scoretxt=0x7f060046;
+        public static final int scrollView1=0x7f06003e;
         public static final int small=0x7f060000;
         public static final int terrain=0x7f060005;
         public static final int text=0x7f06001e;
-        public static final int textView1=0x7f060025;
+        public static final int textView1=0x7f060020;
     }
     public static final class integer {
         public static final int google_play_services_version=0x7f0b0000;
@@ -598,15 +613,16 @@ containing a value of this type.
         public static final int com_facebook_search_bar_layout=0x7f03000d;
         public static final int com_facebook_usersettingsfragment=0x7f03000e;
         public static final int customfont=0x7f03000f;
-        public static final int dartscore=0x7f030010;
+        public static final int dartscore1=0x7f030010;
         public static final int dialog18x=0x7f030011;
         public static final int listview_item=0x7f030012;
         public static final int listview_main=0x7f030013;
         public static final int newuser=0x7f030014;
         public static final int privacy=0x7f030015;
-        public static final int singleitemview=0x7f030016;
-        public static final int splash=0x7f030017;
-        public static final int target=0x7f030018;
+        public static final int scoreboard=0x7f030016;
+        public static final int singleitemview=0x7f030017;
+        public static final int splash=0x7f030018;
+        public static final int target=0x7f030019;
     }
     public static final class menu {
         public static final int activity_main=0x7f0c0000;
@@ -617,9 +633,9 @@ containing a value of this type.
         public static final int shoutgun=0x7f050000;
     }
     public static final class string {
-        public static final int Dialog18x=0x7f09003e;
-        public static final int TitlePeople=0x7f09003c;
-        public static final int app_id=0x7f09003a;
+        public static final int Dialog18x=0x7f09003f;
+        public static final int TitlePeople=0x7f09003d;
+        public static final int app_id=0x7f09003b;
         public static final int app_name=0x7f090034;
         /**   Title for notification shown when GooglePlayServices needs to be
         enabled for a application to work. [CHAR LIMIT=70] 
@@ -745,15 +761,16 @@ containing a value of this type.
          */
         public static final int location_client_powered_by_google=0x7f090033;
         public static final int menu_add=0x7f090037;
+        public static final int menu_score=0x7f090038;
         public static final int menu_settings=0x7f090036;
-        public static final int menu_share=0x7f090038;
+        public static final int menu_share=0x7f090039;
         /**  facebook 
          */
-        public static final int namelabel=0x7f09003b;
-        public static final int privacy=0x7f090040;
-        public static final int terms=0x7f09003f;
-        public static final int termstxt=0x7f09003d;
-        public static final int title_activity_main=0x7f090039;
+        public static final int namelabel=0x7f09003c;
+        public static final int privacy=0x7f090041;
+        public static final int terms=0x7f090040;
+        public static final int termstxt=0x7f09003e;
+        public static final int title_activity_main=0x7f09003a;
     }
     public static final class style {
         public static final int ActionBar_Solid_Avdbpink=0x7f0a0006;

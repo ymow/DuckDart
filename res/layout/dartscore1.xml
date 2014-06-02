@@ -1,0 +1,132 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+        <TextView
+            android:id="@+id/Dart2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/textView1"
+            android:layout_alignBottom="@+id/textView1"
+            android:layout_centerHorizontal="true"
+            android:text="Dart 2"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <EditText
+            android:id="@+id/Dart1Score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/Dart1"
+            android:layout_marginLeft="29dp"
+            android:layout_marginTop="35dp"
+            android:ems="3"
+            android:text="0" >
+
+            <requestFocus />
+        </EditText>
+
+        <TextView
+            android:id="@+id/Dart1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/Dart1Score"
+            android:layout_alignParentTop="true"
+            android:text="Dart 1"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <EditText
+            android:id="@+id/Dart2Score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/Dart1Score"
+            android:layout_alignBottom="@+id/Dart1Score"
+            android:layout_centerHorizontal="true"
+            android:ems="3"
+            android:text="0" />
+
+        <TextView
+            android:id="@+id/Dart3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/Dart1Score"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="43dp"
+            android:text="Dart 3"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <EditText
+            android:id="@+id/Dart3Score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/Dart2Score"
+            android:layout_alignBottom="@+id/Dart2Score"
+            android:layout_alignLeft="@+id/Dart3"
+            android:ems="3"
+            android:text="0" />
+
+                                        <Button
+                                            android:id="@+id/point18"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_alignBaseline="@+id/point4"
+                                            android:layout_alignBottom="@+id/point4"
+                                            android:layout_alignLeft="@+id/Dart2Score"
+                                            android:text="18" />
+
+                                        <Button
+                                            android:id="@+id/point4"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_alignBaseline="@+id/point13"
+                                            android:layout_alignBottom="@+id/point13"
+                                            android:layout_marginLeft="8dp"
+                                            android:layout_toRightOf="@+id/Dart2Score"
+                                            android:text="4" />
+
+                                        <Button
+                                            android:id="@+id/point13"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_alignBaseline="@+id/point20"
+                                            android:layout_alignBottom="@+id/point20"
+                                            android:layout_alignParentRight="true"
+                                            android:text="13" />
+
+                                        <Button
+                                            android:id="@+id/point20"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_alignParentLeft="true"
+                                            android:layout_below="@+id/Dart1Score"
+                                            android:layout_marginTop="76dp"
+                                            android:text="20" />
+
+                                        <Button
+                                            android:id="@+id/point1"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_alignBaseline="@+id/point20"
+                                            android:layout_alignBottom="@+id/point20"
+                                            android:layout_toRightOf="@+id/Dart1"
+                                            android:text="1" />
+
+                                        <Button
+                                            android:id="@+id/clear"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_alignParentBottom="true"
+                                            android:layout_alignParentLeft="true"
+                                            android:layout_alignParentRight="true"
+                                            android:text="Clear" />
+
+                                        <Button
+                                            android:id="@+id/point50"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_below="@+id/point18"
+                                            android:layout_centerHorizontal="true"
+                                            android:layout_marginTop="60dp"
+                                            android:text="50" />
+        
+</RelativeLayout>

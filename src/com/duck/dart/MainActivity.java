@@ -317,7 +317,7 @@ public class MainActivity extends Activity {
 			  getMenuInflater().inflate(R.menu.activity_main, menu);
 		        ActionBar actionBar = getActionBar();  
 		        actionBar.setDisplayHomeAsUpEnabled(false);  
-		        MenuItem AddItem = menu.findItem(R.id.menu_add);
+		        MenuItem AddItem = menu.findItem(R.id.menu_score);
 		     
 
 		        return super.onCreateOptionsMenu(menu);
@@ -326,7 +326,7 @@ public class MainActivity extends Activity {
 		  public boolean onOptionsItemSelected(MenuItem item) {
 		      // Handle presses on the action bar items
 		      switch (item.getItemId()) {
-		          case R.id.menu_add:
+		          case R.id.menu_score:
 		        	  addnewone();
 						FlurryAgent.logEvent("addnewone");
 //		        	  Intent intent = new Intent(this, MainActivity.class);

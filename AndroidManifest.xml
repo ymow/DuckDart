@@ -64,7 +64,11 @@
                                                  android:icon="@drawable/ic_launcher1"
                                         android:theme="@style/Theme.Avdbpink">
         </activity>
-                                         <activity android:name="com.duck.dart.DartScore" 
+                                                 <activity android:name="com.duck.dart.ScoreBoard" 
+                                                 android:icon="@drawable/ic_launcher1"
+                                        android:theme="@style/Theme.Avdbpink">
+        </activity>
+                                         <activity android:name="com.duck.dart.DartScore1" 
                                                  android:icon="@drawable/ic_launcher1"
                                         android:theme="@style/Theme.Avdbpink">
         </activity>

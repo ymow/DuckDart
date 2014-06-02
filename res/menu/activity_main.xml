@@ -1,7 +1,7 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:id="@+id/menu_add"
+    <item android:id="@+id/menu_score"
  		  android:icon="@drawable/ic_action_content_new" 
-          android:title="@string/menu_add"
+          android:title="@string/menu_score"
           android:showAsAction="ifRoom|withText" />
 <!--         <item android:id="@+id/menu_share"
  		  android:icon="@drawable/ic_action_add_icon" 
