@@ -1,0 +1,176 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/Round1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageView1"
+        android:layout_below="@+id/imageView1"
+        android:layout_marginTop="17dp"
+        android:text="Round1:"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/Round1Score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="3"
+        android:text="0" />
+
+    <TextView
+        android:id="@+id/Round2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/Round1"
+        android:layout_below="@+id/Round1"
+        android:layout_marginTop="14dp"
+        android:text="Round2:"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/Round2Score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="3"
+        android:text="0" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/Round3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:text="Round3:"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/Round4"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_alignLeft="@+id/Round2"
+        android:layout_below="@+id/Round2"
+        android:layout_marginTop="45dp"
+        android:text="Round4:"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/Round3Score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="3"
+        android:text="0" />
+
+		  <EditText
+		      android:id="@+id/Round4Score"
+		      android:layout_width="wrap_content"
+		      android:layout_height="wrap_content"
+		      android:layout_below="@+id/Round3Score"
+		      android:layout_toRightOf="@+id/scrollView1"
+		      android:ems="3"
+		      android:text="0" />
+
+		  <TextView
+		      android:id="@+id/Round6"
+		      android:layout_width="wrap_content"
+		      android:layout_height="wrap_content"
+		      android:layout_alignBaseline="@+id/Round2Score"
+		      android:layout_alignBottom="@+id/Round2Score"
+		      android:layout_alignLeft="@+id/Round5"
+		      android:text="Round6:"
+		      android:textAppearance="?android:attr/textAppearanceMedium" />
+
+		  <EditText
+		      android:id="@+id/Round5Score"
+		      android:layout_width="wrap_content"
+		      android:layout_height="wrap_content"
+		      android:layout_alignBaseline="@+id/Round1Score"
+		      android:layout_alignBottom="@+id/Round1Score"
+		      android:layout_alignRight="@+id/imageView1"
+		      android:ems="3"
+		      android:text="0" />
+
+		  <EditText
+		      android:id="@+id/Round7Score"
+		      android:layout_width="wrap_content"
+		      android:layout_height="wrap_content"
+		      android:layout_alignBaseline="@+id/Round7"
+		      android:layout_alignBottom="@+id/Round7"
+		      android:layout_alignLeft="@+id/Round6Score"
+		      android:ems="3"
+		      android:text="0" />
+
+		      <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:text="SCORE : "
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/scoretxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="15dp"
+        android:layout_toRightOf="@+id/TextView01"
+        android:text="1440"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+
+    <TextView
+        android:id="@+id/Round5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/Round6Score"
+        android:layout_alignLeft="@+id/dd_target1"
+        android:layout_marginLeft="9dp"
+        android:text="Round5:"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/Round7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/Round3Score"
+        android:layout_alignBottom="@+id/Round3Score"
+        android:layout_alignLeft="@+id/Round6"
+        android:text="Round7:"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/Round8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/Round4Score"
+        android:layout_alignBottom="@+id/Round4Score"
+        android:layout_alignLeft="@+id/Round7"
+        android:text="Round8:"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/Round6Score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/Round6"
+        android:layout_alignBottom="@+id/Round6"
+        android:layout_alignLeft="@+id/Round5Score"
+        android:ems="3"
+        android:text="0" />
+
+    <EditText
+        android:id="@+id/Round4Score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/Round4"
+        android:layout_alignBottom="@+id/Round4"
+        android:layout_alignLeft="@+id/Round7Score"
+        android:ems="3"
+        android:text="0" />
+      
+</LinearLayout>
