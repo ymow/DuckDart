@@ -18,15 +18,13 @@ import android.widget.ShareActionProvider;
 import android.widget.TextView;
 
 import com.flurry.android.FlurryAgent;
-import com.google.android.gms.ads.AdRequest;
-import com.google.android.gms.ads.AdView;
  
 public class SingleItemView extends Activity {
 	private static final String  BrowserBug = null;
 	// Declare Variables
  
       String AVgirlname,videoname;
-	  private AdView adView2;
+//	  private AdView adView2;
 	  private ShareActionProvider mShareActionProvider;
  
 	@Override
@@ -40,7 +38,7 @@ public class SingleItemView extends Activity {
 		 getActionBar().setDisplayUseLogoEnabled(true);
  
 	    //  adView
-	    adView2 = (AdView)findViewById(R.id.adView2);
+/*	    adView2 = (AdView)findViewById(R.id.adView2);
  
 	    // Big ad banner
 //	    AdRequest adRequest = new AdRequest.Builder().build();
@@ -52,7 +50,7 @@ public class SingleItemView extends Activity {
 	    .build();
 	    // ????????????????????? adView???
 	    adView2.loadAd(request);
-	    
+*/	    
 		// Retrieve data from MainActivity on item click event
 		Intent i = getIntent();
 //		Intent k = getIntent();

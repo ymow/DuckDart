@@ -34,9 +34,6 @@ import android.widget.ListView;
 import android.widget.Toast;
 
 import com.flurry.android.FlurryAgent;
-import com.google.ads.AdRequest;
-import com.google.android.gms.ads.AdView;
- 
 import com.parse.GetCallback;
 import com.parse.ParseAnalytics;
 import com.parse.ParseException;
@@ -54,7 +51,7 @@ public class MainActivity extends Activity {
 		ArrayAdapter<String> adapter;
 		ArrayList<String>  RestaurantRank = new ArrayList<String>();
 		
-		  private AdView adView;
+//		  private AdVizew adView;
 
 		@Override
 		public void onCreate(Bundle savedInstanceState) {
@@ -253,12 +250,12 @@ public class MainActivity extends Activity {
         	        }
 			}
 		}
-		 @Override
-		  public void onPause() {
-		    adView.pause();
-		    super.onPause();
-
-		  }
+//		 @Override
+//		  public void onPause() {
+//		    adView.pause();
+//		    super.onPause();
+//
+//		  }
 			@Override
 			protected void onStart()
 			{
@@ -275,7 +272,7 @@ public class MainActivity extends Activity {
 		  @Override
 		  public void onResume() {
 		    super.onResume();
-		    adView.resume(); 
+//		    adView.resume(); 
 		    Boolean b;
 		    b=isNetworkAvailable();  //true if connection,  false if not
 
@@ -300,7 +297,7 @@ public class MainActivity extends Activity {
 
 		  @Override
 		  public void onDestroy() {
-		    adView.destroy();
+//		    adView.destroy();
 		    super.onDestroy();
 		  }
 //			//check internet connetion
