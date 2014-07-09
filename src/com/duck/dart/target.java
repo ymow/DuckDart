@@ -15,7 +15,8 @@ import android.widget.ImageButton;
  
 
 public class target extends Activity {
- 
+	int TargetScore = 0;
+	int RoundStatic = 0;
 		
 		@Override
 		public void onCreate(Bundle savedInstanceState) {
@@ -32,10 +33,15 @@ public class target extends Activity {
 				@Override
 				public void onClick(View v) {
 					// TODO Auto-generated method stub
-					    Intent DartScore = new Intent();
-					    DartScore.setClass( target.this, DartScore1.class );
-//					    DartScore.putExtras(postParams);
-			            startActivity(DartScore);
+					    Intent DartScore1 = new Intent();
+					    DartScore1.setClass( target.this, DartScore1.class );
+					    Bundle bundle = new Bundle();
+					    bundle.putInt("addNewRount", TargetScore);
+					    bundle.putInt("RoundStatic", RoundStatic);
+					    DartScore1.putExtras(bundle);
+//					    DartScore1.putExtra("addNewRount", TargetScore);
+//					    DartScore1.putExtra("RoundStatic", RoundStatic);
+			            startActivity(DartScore1);
 				}
 			});
 			
